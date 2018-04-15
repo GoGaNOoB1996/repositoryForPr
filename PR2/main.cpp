@@ -11,11 +11,11 @@ int main(int argc, char *argv[])
        newqueue(q2,"Очередь2");
        newfac(f,"Колонка1");
        newfac(f2,"Колонка2");
-       while (systime <= 480) {
+       while (systime <= 560) {
            plan();
            switch (sysevent) {
            case 1:
-               create(10);
+               create(20);
                break;
            case 2:
                inqueue(q);
