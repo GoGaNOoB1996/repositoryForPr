@@ -5,12 +5,12 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
     pfacility f,f2;
     pqueue q,q2;
-       initlist(200);
+       initlist(300);
        newqueue(q,"Очередь1");
        newqueue(q2,"Очередь2");
        newfac(f,"Колонка1");
        newfac(f2,"Колонка2");
-       while (systime <= 560) {
+       while (systime <= 460) {
            plan();
            switch (sysevent) {
            case 1:
